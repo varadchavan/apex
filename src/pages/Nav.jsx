@@ -25,16 +25,7 @@ function Nav() {
         >
           Careers
         </NavLink>
-        <NavLink
-          to="/support"
-          className={({ isActive }) =>
-            `text-black hover:underline font-medium transition duration-300 ${
-              isActive ? "border-b-2 border-orange-400" : ""
-            }`
-          }
-        >
-          Support
-        </NavLink>
+       
         <NavLink
           to="/our-culture"
           className={({ isActive }) =>
@@ -44,6 +35,16 @@ function Nav() {
           }
         >
           Our Culture
+        </NavLink>
+        <NavLink
+          to="/support"
+          className={({ isActive }) =>
+            `text-black hover:underline font-medium transition duration-300 ${
+              isActive ? "border-b-2 border-orange-400" : ""
+            }`
+          }
+        >
+          Support
         </NavLink>
       </div>
       <NavLink
